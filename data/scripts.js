@@ -60,7 +60,7 @@ particlesJS("particles-js", {
 
 // Fetch and load cards.json data on page load
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('data/cards.json')
+  fetch('cards.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok ' + response.statusText);
