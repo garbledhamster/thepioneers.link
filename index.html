@@ -5,55 +5,100 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #000;
+      overflow-x: hidden;
+      font-family: sans-serif;
+      color: #fff;
+    }
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    h1, h2, h3 {
+      color: #fff;
+    }
+
+    .category-container {
+      margin-bottom: 50px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .card-grid img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .card-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card-details h3 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .card-details p {
+      margin: 0 0 5px;
+    }
+
+    .tags,
+    .buttons,
+    .influence,
+    .connections,
+    .ranking {
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+    }
+
+    .buttons a {
+      margin-right: 5px;
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .buttons a:hover {
+      background: #fff;
+      color: #000;
+    }
+  </style>
 </head>
 <body>
+  <div id="particles-js"></div>
   <div class="container py-5">
     <h1 class="text-center mb-5">Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</h1>
-
-    <h2 class="mb-4">Explorers of Spiritual Dimensions</h2>
-    <div class="category-container">
-      <h3>Channelers and Spiritual Messengers</h3>
-      <div class="card-grid">
-        <img src="https://via.placeholder.com/100" alt="Jane Roberts">
-        <div class="card-details">
-          <h3>Jane Roberts</h3>
-          <p>Author and channeler of Seth Material, exploring multidimensional existence.</p>
-          <div class="ranking">Fame: High</div>
-          <div class="influence">Influence: Multidimensional teachings</div>
-          <div class="connections">Connections: Seth</div>
-          <div class="tags">Tags: Channeling, Consciousness, Spirituality</div>
-          <div class="buttons">
-            <a href="#">Website</a>
-            <a href="#">Book</a>
-            <a href="#">Research</a>
-          </div>
-        </div>
-      </div>
-      ...
-    </div>
-
-    <h2 class="mb-4">Visionaries of Hidden Realms</h2>
-    <div class="category-container">
-      <h3>UFO Investigators and Advocates</h3>
-      <div class="card-grid">
-        <img src="https://via.placeholder.com/100" alt="Luis Elizondo">
-        <div class="card-details">
-          <h3>Luis Elizondo</h3>
-          <p>UFO investigator, former Pentagon AATIP director.</p>
-          <div class="ranking">Fame: High</div>
-          <div class="influence">Influence: UFO disclosure efforts</div>
-          <div class="connections">Connections: TTSA, Pentagon officials</div>
-          <div class="tags">Tags: UFO, AATIP</div>
-          <div class="buttons">
-            <a href="#">Website</a>
-            <a href="#">Interview</a>
-            <a href="#">Research</a>
-          </div>
-        </div>
-      </div>
-      ...
-    </div>
+    <div id="content-area"></div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/VincentGarreau/particles.js@master/particles.min.js"></script>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>
