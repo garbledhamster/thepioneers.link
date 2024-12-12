@@ -1,3 +1,5 @@
+// scripts/scripts.js
+
 // Particles.js Configuration
 particlesJS("particles-js", {
   "particles": {
@@ -59,9 +61,17 @@ particlesJS("particles-js", {
 // Fetch and load cards.json data on page load
 document.addEventListener('DOMContentLoaded', function () {
   fetch('data/cards.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
     .then(data => {
       const contentArea = document.getElementById('content-area');
+
+      // Set the page title from JSON
+      document.title = data.title;
 
       // Loop through each section
       data.sections.forEach(section => {
@@ -136,6 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
               const a = document.createElement('a');
               a.href = link.url;
               a.textContent = link.text;
+              a.target = "_blank"; // Open links in a new tab
               buttonsDiv.appendChild(a);
             });
             cardDetails.appendChild(buttonsDiv);
