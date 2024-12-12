@@ -1,135 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cloudflare Configuration</title>
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet">
-<style>
-body {background:#f9fafb;}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="min-h-screen flex items-center justify-center">
-<div class="w-full max-w-3xl bg-white shadow-lg rounded-lg p-6 space-y-4">
-<div class="flex items-center justify-between">
-<h1 class="text-2xl font-semibold">Cloudflare Configuration</h1>
-<button id="helpBtn" class="text-blue-500 text-xl rounded-full w-8 h-8 flex items-center justify-center bg-blue-100">?</button>
-</div>
-<div>
-<label class="block font-medium mb-1">Cloudflare API Token</label>
-<div class="flex items-center space-x-2">
-<input id="apiToken" type="text" class="border border-gray-300 rounded w-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
-</div>
-</div>
-<div>
-<label class="block font-medium mb-1">Domain Name</label>
-<input id="domainName" type="text" class="border border-gray-300 rounded w-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="example.com">
-</div>
-<div>
-<label class="block font-medium mb-1">DNS Zone File</label>
-<textarea id="dnsZoneFile" class="border border-gray-300 rounded w-full p-2 h-40 focus:outline-none focus:ring-2 focus:ring-blue-400">garbled.link 3600 IN SOA mustafa.ns.cloudflare.com. dns.cloudflare.com. 2048570116 10000 2400 604800 3600
-garbled.link. 86400 IN NS mustafa.ns.cloudflare.com.
-garbled.link. 86400 IN NS ophelia.ns.cloudflare.com.
-garbled.link. 1 IN A 185.199.108.153
-garbled.link. 1 IN A 185.199.109.153
-garbled.link. 1 IN A 185.199.110.153
-garbled.link. 1 IN A 185.199.111.153
-imap.garbled.link. 1 IN CNAME wednesday.mxrouting.net.
-smtp.garbled.link. 1 IN CNAME wednesday.mxrouting.net.
-www.garbled.link. 1 IN CNAME garbled.link.
-garbled.link. 1 IN MX 20 wednesday-relay.mxrouting.net.
-garbled.link. 1 IN MX 10 wednesday.mxrouting.net.
-_dmarc.garbled.link. 1 IN TXT "v=DMARC1; p=none; rua=mailto:f7a0dde7b89d4d2e9142800d022620aa@dmarc-reports.cloudflare.net"
-garbled.link. 1 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtctNvrccdktm/oReNEQBOFOwDikiTiI06X/0l/5IJ9GMVt9O4i7QIst+V9SaU9FcPW75AqXvjTk0Vf3hnzdREoe3tmh9mEng++dAevB6e0Pit06zlAC/osMsm/RBApCgoSG8NiG/9ZkhV6gCC6eXwjNXES+8yhABWCkVgDvCc6NsgQDcdluDr/tTK2CXFLGW6dGPu4oklJlPA/TRPhhhQF1kOryM0xhCsAGe1DhxKsZwYO+JuxQwR+o7n4IwXtdFORhMKDyhyhv33vXwjDsAHjRRqmO2LcgrJXVM7+gqWs90JhJxe+22skufL1uZvTCbnzFFYh5blv+dP/TfRlnycQIDAQAB"
-garbled.link. 1 IN TXT "v=spf1 a mx include:mxroute.com -all"</textarea>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div class="space-y-2">
-<div class="flex items-center space-x-2">
-<input id="wafBlock" type="checkbox" class="h-4 w-4">
-<label class="font-medium">WAF Block RU,SG,UA,CN</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="botFightMode" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Bot Fight Mode Enabled</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="crawlerHints" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Crawler Hints Enabled</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="alwaysOnline" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Always Online Enabled</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="hotlinkProtection" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Hotlink Protection Enabled</label>
-</div>
-</div>
-<div class="space-y-2">
-<div class="flex items-center space-x-2">
-<input id="emailObfuscation" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Email Address Obfuscation Enabled</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="alwaysUseHTTPS" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Always Use HTTPS</label>
-</div>
-<div>
-<label class="font-medium block mb-1">Minimum TLS Version</label>
-<select id="minTLS" class="border border-gray-300 rounded w-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
-<option value="1.2" selected>1.2</option>
-<option value="1.3">1.3</option>
-</select>
-</div>
-<div class="flex items-center space-x-2">
-<input id="autoHTTPSRewrite" type="checkbox" class="h-4 w-4" checked>
-<label class="font-medium">Automatic HTTPS Rewrites</label>
-</div>
-<div class="flex items-center space-x-2">
-<input id="disableProxy" type="checkbox" class="h-4 w-4">
-<label class="font-medium">Disable Proxy for All DNS</label>
-</div>
-</div>
-</div>
-<div class="flex justify-end">
-<button id="applyBtn" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Apply Configuration</button>
-</div>
-</div>
-<div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
-<div class="bg-white p-6 rounded-lg w-full max-w-md space-y-4">
-<h2 class="text-xl font-semibold">How to get Cloudflare API Token</h2>
-<p>1. Log in to Cloudflare.</p>
-<p>2. Go to My Profile > API Tokens.</p>
-<p>3. Create or select an API token with appropriate permissions.</p>
-<p>4. Copy your API token and paste it in the field.</p>
-<div class="flex justify-end">
-<button id="closeModal" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Close</button>
-</div>
-</div>
-</div>
-<script>
-const helpBtn=document.getElementById("helpBtn")
-const modal=document.getElementById("modal")
-const closeModal=document.getElementById("closeModal")
-helpBtn.onclick=()=>{modal.classList.remove("hidden")}
-closeModal.onclick=()=>{modal.classList.add("hidden")}
-const applyBtn=document.getElementById("applyBtn")
-applyBtn.onclick=()=>{
-const apiToken=document.getElementById("apiToken").value.trim()
-const domainName=document.getElementById("domainName").value.trim()
-const dnsZoneFile=document.getElementById("dnsZoneFile").value.trim()
-const wafBlock=document.getElementById("wafBlock").checked
-const botFightMode=document.getElementById("botFightMode").checked
-const crawlerHints=document.getElementById("crawlerHints").checked
-const alwaysOnline=document.getElementById("alwaysOnline").checked
-const hotlinkProtection=document.getElementById("hotlinkProtection").checked
-const emailObfuscation=document.getElementById("emailObfuscation").checked
-const alwaysUseHTTPS=document.getElementById("alwaysUseHTTPS").checked
-const minTLS=document.getElementById("minTLS").value
-const autoHTTPSRewrite=document.getElementById("autoHTTPSRewrite").checked
-const disableProxy=document.getElementById("disableProxy").checked
-alert("Configuration ready to apply:\nAPI Token:"+apiToken+"\nDomain:"+domainName+"\nWAF:"+wafBlock+"\nBotFight:"+botFightMode+"\nCrawlerHints:"+crawlerHints+"\nAlwaysOnline:"+alwaysOnline+"\nHotlinkProtection:"+hotlinkProtection+"\nEmailObfuscation:"+emailObfuscation+"\nAlwaysUseHTTPS:"+alwaysUseHTTPS+"\nMinTLS:"+minTLS+"\nAutoHTTPSRewrite:"+autoHTTPSRewrite+"\nDisableProxy:"+disableProxy+"\nDNS Zone:\n"+dnsZoneFile)
-}
-</script>
+<body>
+  <div class="container py-5">
+    <h1 class="text-center mb-5">Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</h1>
+
+    <h2 class="mb-4">Explorers of Spiritual Dimensions</h2>
+    <div class="category-container">
+      <h3>Channelers and Spiritual Messengers</h3>
+      <div class="card-grid">
+        <img src="https://via.placeholder.com/100" alt="Jane Roberts">
+        <div class="card-details">
+          <h3>Jane Roberts</h3>
+          <p>Author and channeler of Seth Material, exploring multidimensional existence.</p>
+          <div class="ranking">Fame: High</div>
+          <div class="influence">Influence: Multidimensional teachings</div>
+          <div class="connections">Connections: Seth</div>
+          <div class="tags">Tags: Channeling, Consciousness, Spirituality</div>
+          <div class="buttons">
+            <a href="#">Website</a>
+            <a href="#">Book</a>
+            <a href="#">Research</a>
+          </div>
+        </div>
+      </div>
+      ...
+    </div>
+
+    <h2 class="mb-4">Visionaries of Hidden Realms</h2>
+    <div class="category-container">
+      <h3>UFO Investigators and Advocates</h3>
+      <div class="card-grid">
+        <img src="https://via.placeholder.com/100" alt="Luis Elizondo">
+        <div class="card-details">
+          <h3>Luis Elizondo</h3>
+          <p>UFO investigator, former Pentagon AATIP director.</p>
+          <div class="ranking">Fame: High</div>
+          <div class="influence">Influence: UFO disclosure efforts</div>
+          <div class="connections">Connections: TTSA, Pentagon officials</div>
+          <div class="tags">Tags: UFO, AATIP</div>
+          <div class="buttons">
+            <a href="#">Website</a>
+            <a href="#">Interview</a>
+            <a href="#">Research</a>
+          </div>
+        </div>
+      </div>
+      ...
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
