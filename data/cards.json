@@ -214,878 +214,625 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "heading": "Ancient History and Hidden Past",
+      "categories": [
         {
-          "heading": "Ancient History and Hidden Past",
-          "categories": [
+          "title": "Edgar Cayce’s Secretaries (Group)",
+          "entries": [
             {
-              "title": "Edgar Cayce’s Secretaries (Group)",
-              "entries": [
-                {
-                  "name": "Edgar Cayce’s Secretaries (Group)",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Female collaborators preserving Cayce’s legacy.",
-                  "fame": "Medium",
-                  "influence": "Preserving Cayce’s readings",
-                  "connections": "Edgar Cayce Foundation",
-                  "tags": ["Archival Work", "Esoteric Readings"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Meher Baba’s Women Mandali (Group)",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Women close to Meher Baba who preserved mystical teachings.",
-                  "fame": "Low",
-                  "influence": "Mystical teachings of Meher Baba",
-                  "connections": "Meher Baba circle",
-                  "tags": ["Mysticism", "Preservation"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Ardy Sixkiller Clarke",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Researcher documenting Native American UFO encounters.",
-                  "fame": "Medium",
-                  "influence": "Indigenous UFO accounts",
-                  "connections": "Native American communities",
-                  "tags": ["UFO", "Indigenous Wisdom"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Ellen Tadd",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Clairvoyant and teacher focused on consciousness and spirituality.",
-                  "fame": "Low",
-                  "influence": "Clairvoyance, Spiritual teaching",
-                  "connections": "Spiritual students",
-                  "tags": ["Clairvoyance", "Spiritual Growth"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Edgar Cayce’s Secretaries (Group)",
+              "image": "https://via.placeholder.com/100",
+              "description": "Female collaborators preserving Cayce’s legacy.",
+              "fame": "Medium",
+              "influence": "Preserving Cayce’s readings",
+              "connections": "Edgar Cayce Foundation",
+              "tags": ["Archival Work", "Esoteric Readings"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Consciousness and Psychedelic Explorers",
-              "entries": [
-                {
-                  "name": "Penny Kelly",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Author exploring Kundalini awakening and consciousness.",
-                  "fame": "Low",
-                  "influence": "Kundalini, Conscious awakening",
-                  "connections": "Spiritual communities",
-                  "tags": ["Kundalini", "Consciousness"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Lorie Ladd",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Spiritual teacher on ascension and multi-dimensional reality.",
-                  "fame": "Medium",
-                  "influence": "Ascension teachings",
-                  "connections": "Lightworker communities",
-                  "tags": ["Ascension", "Multidimensions"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Tricia McCannon",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Author linking ancient history with mystical wisdom.",
-                  "fame": "Low",
-                  "influence": "Ancient mysteries",
-                  "connections": "Researchers of hidden histories",
-                  "tags": ["Ancient Wisdom", "Mysticism"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Betty Andreasson Luca",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "UFO experiencer sharing detailed alien encounters.",
-                  "fame": "Medium",
-                  "influence": "Classic abductee accounts",
-                  "connections": "UFO contactee network",
-                  "tags": ["Abduction", "UFO Encounters"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Meher Baba’s Women Mandali (Group)",
+              "image": "https://via.placeholder.com/100",
+              "description": "Women close to Meher Baba who preserved mystical teachings.",
+              "fame": "Low",
+              "influence": "Mystical teachings of Meher Baba",
+              "connections": "Meher Baba circle",
+              "tags": ["Mysticism", "Preservation"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Translators and Healers",
-              "entries": [
-                {
-                  "name": "Ruth Huber",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Ancient text translator exploring esoteric meanings.",
-                  "fame": "Low",
-                  "influence": "Esoteric text interpretation",
-                  "connections": "Scholars of ancient texts",
-                  "tags": ["Translation", "Esoterica"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Maria Sabina",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Mazatec healer, known for her work with sacred mushrooms.",
-                  "fame": "High",
-                  "influence": "Sacred mushroom rituals",
-                  "connections": "Indigenous healers",
-                  "tags": ["Shamanism", "Entheogens"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Sun Yat-sen’s Followers (Miaozhen)",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Women mystics from early Taoist traditions.",
-                  "fame": "Low",
-                  "influence": "Taoist mysticism",
-                  "connections": "Taoist practitioners",
-                  "tags": ["Taoism", "Mysticism"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Ardy Sixkiller Clarke",
+              "image": "https://via.placeholder.com/100",
+              "description": "Researcher documenting Native American UFO encounters.",
+              "fame": "Medium",
+              "influence": "Indigenous UFO accounts",
+              "connections": "Native American communities",
+              "tags": ["UFO", "Indigenous Wisdom"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Shamans and Anthropologists",
-              "entries": [
-                {
-                  "name": "Michael Harner",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Anthropologist introducing shamanic practices to the West.",
-                  "fame": "Medium",
-                  "influence": "Core shamanism",
-                  "connections": "Shamanic practitioners",
-                  "tags": ["Shamanism", "Anthropology"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Terence McKenna",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Philosopher exploring psychedelics and consciousness.",
-                  "fame": "High",
-                  "influence": "Psychedelic culture",
-                  "connections": "Psychonaut communities",
-                  "tags": ["Psychedelics", "Consciousness"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Talks", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Out-of-Body and Mind Training Researchers",
-              "entries": [
-                {
-                  "name": "Robert Monroe",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Pioneer in out-of-body experiences.",
-                  "fame": "Medium",
-                  "influence": "OBE research",
-                  "connections": "Monroe Institute",
-                  "tags": ["OBE", "Consciousness Travel"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Training", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "José Silva",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Founder of Silva Method for mental training.",
-                  "fame": "Medium",
-                  "influence": "Mind control techniques",
-                  "connections": "Silva Method practitioners",
-                  "tags": ["Mental Training", "ESP"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Course", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Ancient Civilizations and Hidden History",
-              "entries": [
-                {
-                  "name": "Graham Hancock",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Author on ancient civilizations and hidden history.",
-                  "fame": "High",
-                  "influence": "Alternative archaeology",
-                  "connections": "Independent researchers",
-                  "tags": ["Lost Civilizations", "Archaeology"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Zecharia Sitchin",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Theorist linking Sumerian texts to alien intervention.",
-                  "fame": "High",
-                  "influence": "Ancient astronaut theory",
-                  "connections": "Ancient alien theorists",
-                  "tags": ["Sumerian", "Ancient Aliens"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Contactees and Experiencers",
-              "entries": [
-                {
-                  "name": "Whitley Strieber",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "UFO experiencer and author of Communion.",
-                  "fame": "High",
-                  "influence": "Abduction literature",
-                  "connections": "Abductee communities",
-                  "tags": ["Abduction", "UFO"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Scientist Explorers of Consciousness",
-              "entries": [
-                {
-                  "name": "Edgar Mitchell",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Astronaut connecting quantum physics and consciousness.",
-                  "fame": "High",
-                  "influence": "Quantum mind theories",
-                  "connections": "IONS institute",
-                  "tags": ["Consciousness", "Quantum"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Malidoma Somé",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Dagara elder sharing African spiritual knowledge.",
-                  "fame": "Medium",
-                  "influence": "African spirituality",
-                  "connections": "Dagara tribe",
-                  "tags": ["African Wisdom", "Ritual"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "UFO Spiritual Movements",
-              "entries": [
-                {
-                  "name": "Rael (Claude Vorilhon)",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Leader of Raelian movement connecting UFOs and spirituality.",
-                  "fame": "Medium",
-                  "influence": "UFO-based religion",
-                  "connections": "Raelian followers",
-                  "tags": ["UFO Religion", "ET Creation"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Parapsychologists",
-              "entries": [
-                {
-                  "name": "Dean Radin",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Parapsychologist studying consciousness phenomena.",
-                  "fame": "Medium",
-                  "influence": "Psi research credibility",
-                  "connections": "IONS, Psi community",
-                  "tags": ["PSI", "Consciousness Research"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Ellen Tadd",
+              "image": "https://via.placeholder.com/100",
+              "description": "Clairvoyant and teacher focused on consciousness and spirituality.",
+              "fame": "Low",
+              "influence": "Clairvoyance, Spiritual teaching",
+              "connections": "Spiritual students",
+              "tags": ["Clairvoyance", "Spiritual Growth"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             }
           ]
         },
         {
-          "heading": "Visionaries of Hidden Realms",
-          "categories": [
+          "title": "Consciousness and Psychedelic Explorers",
+          "entries": [
             {
-              "title": "UFO Investigators and Advocates",
-              "entries": [
-                {
-                  "name": "Luis Elizondo",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "UFO investigator, former Pentagon AATIP director.",
-                  "fame": "High",
-                  "influence": "UFO disclosure efforts",
-                  "connections": "TTSA, Pentagon officials",
-                  "tags": ["UFO", "AATIP"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Robert Bigelow",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Aerospace entrepreneur; sponsored UAP research.",
-                  "fame": "High",
-                  "influence": "UAP research funding",
-                  "connections": "NIDS, Aerospace community",
-                  "tags": ["UAP", "Aerospace"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Reports", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Brandon Fugal",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Owner of Skinwalker Ranch.",
-                  "fame": "Medium",
-                  "influence": "Paranormal site research",
-                  "connections": "Skinwalker Ranch team",
-                  "tags": ["Paranormal", "Ranch"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Show", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Chris Mellon",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Advocate for transparency in UFO research.",
-                  "fame": "High",
-                  "influence": "Government transparency",
-                  "connections": "UFO disclosure community",
-                  "tags": ["Disclosure", "Government"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Article", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Tom DeLonge",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Researcher merging UFO studies with public outreach.",
-                  "fame": "High",
-                  "influence": "Pop culture UFO awareness",
-                  "connections": "TTSA, Rock music fans",
-                  "tags": ["UFO", "Outreach"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Penny Kelly",
+              "image": "https://via.placeholder.com/100",
+              "description": "Author exploring Kundalini awakening and consciousness.",
+              "fame": "Low",
+              "influence": "Kundalini, Conscious awakening",
+              "connections": "Spiritual communities",
+              "tags": ["Kundalini", "Consciousness"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Philosophers and Theorists",
-              "entries": [
-                {
-                  "name": "David Icke",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Philosopher on hidden agendas and human potential.",
-                  "fame": "High",
-                  "influence": "Conspiracy theory landscape",
-                  "connections": "Alternative media",
-                  "tags": ["Conspiracy", "Hidden Agendas"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Video", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Joe Dispenza",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Neuroscientist promoting mind-body connection.",
-                  "fame": "High",
-                  "influence": "Neuroplasticity, Healing",
-                  "connections": "Wellness communities",
-                  "tags": ["Mind-Body", "Neuroscience"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Tom Campbell",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Physicist integrating consciousness and reality theory.",
-                  "fame": "Medium",
-                  "influence": "Virtual reality theory",
-                  "connections": "Consciousness researchers",
-                  "tags": ["Consciousness", "Physics"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Joseph McMoneagle",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Psychic spy in U.S. military remote viewing programs.",
-                  "fame": "Medium",
-                  "influence": "Remote viewing, Psi research",
-                  "connections": "Stargate project team",
-                  "tags": ["Remote Viewing", "Psychic"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Lorie Ladd",
+              "image": "https://via.placeholder.com/100",
+              "description": "Spiritual teacher on ascension and multi-dimensional reality.",
+              "fame": "Medium",
+              "influence": "Ascension teachings",
+              "connections": "Lightworker communities",
+              "tags": ["Ascension", "Multidimensions"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Early UFO Witnesses and Contactees",
-              "entries": [
-                {
-                  "name": "Kenneth Arnold",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Pilot, whose UFO sightings coined “flying saucers.”",
-                  "fame": "High",
-                  "influence": "UFO pop culture",
-                  "connections": "Early UFO researchers",
-                  "tags": ["UFO History"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Report", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Steven Greer",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Advocate for human-initiated extraterrestrial contact.",
-                  "fame": "High",
-                  "influence": "CE-5 protocols",
-                  "connections": "UFO contact groups",
-                  "tags": ["CE-5", "Disclosure"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Film", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Valiant Thor",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Alleged extraterrestrial assisting humanity.",
-                  "fame": "Controversial",
-                  "influence": "Contactee lore",
-                  "connections": "Contactee movement",
-                  "tags": ["ET", "Contactee"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Story", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Tricia McCannon",
+              "image": "https://via.placeholder.com/100",
+              "description": "Author linking ancient history with mystical wisdom.",
+              "fame": "Low",
+              "influence": "Ancient mysteries",
+              "connections": "Researchers of hidden histories",
+              "tags": ["Ancient Wisdom", "Mysticism"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Channelers and Mediums",
-              "entries": [
-                {
-                  "name": "Paul Selig",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Channeler of spiritual texts.",
-                  "fame": "Medium",
-                  "influence": "Channeled teachings",
-                  "connections": "Spiritual readers",
-                  "tags": ["Channeling", "Teachings"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Uri Geller",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Psychic known for telekinesis and ESP research.",
-                  "fame": "High",
-                  "influence": "Public psi awareness",
-                  "connections": "Paranormal researchers",
-                  "tags": ["Telekinesis", "ESP"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Shamans and Anthropologists",
-              "entries": [
-                {
-                  "name": "Michael Harner",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Anthropologist introducing shamanic practices to the West.",
-                  "fame": "Medium",
-                  "influence": "Core shamanism",
-                  "connections": "Shamanic practitioners",
-                  "tags": ["Shamanism", "Anthropology"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Terence McKenna",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Philosopher exploring psychedelics and consciousness.",
-                  "fame": "High",
-                  "influence": "Psychedelic culture",
-                  "connections": "Psychonaut communities",
-                  "tags": ["Psychedelics", "Consciousness"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Talks", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Betty Andreasson Luca",
+              "image": "https://via.placeholder.com/100",
+              "description": "UFO experiencer sharing detailed alien encounters.",
+              "fame": "Medium",
+              "influence": "Classic abductee accounts",
+              "connections": "UFO contactee network",
+              "tags": ["Abduction", "UFO Encounters"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             }
           ]
         },
         {
-          "heading": "Visionaries of Hidden Realms",
-          "categories": [
+          "title": "Translators and Healers",
+          "entries": [
             {
-              "title": "UFO Investigators and Advocates",
-              "entries": [
-                {
-                  "name": "Luis Elizondo",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "UFO investigator, former Pentagon AATIP director.",
-                  "fame": "High",
-                  "influence": "UFO disclosure efforts",
-                  "connections": "TTSA, Pentagon officials",
-                  "tags": ["UFO", "AATIP"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Robert Bigelow",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Aerospace entrepreneur; sponsored UAP research.",
-                  "fame": "High",
-                  "influence": "UAP research funding",
-                  "connections": "NIDS, Aerospace community",
-                  "tags": ["UAP", "Aerospace"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Reports", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Brandon Fugal",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Owner of Skinwalker Ranch.",
-                  "fame": "Medium",
-                  "influence": "Paranormal site research",
-                  "connections": "Skinwalker Ranch team",
-                  "tags": ["Paranormal", "Ranch"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Show", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Chris Mellon",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Advocate for transparency in UFO research.",
-                  "fame": "High",
-                  "influence": "Government transparency",
-                  "connections": "UFO disclosure community",
-                  "tags": ["Disclosure", "Government"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Article", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Tom DeLonge",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Researcher merging UFO studies with public outreach.",
-                  "fame": "High",
-                  "influence": "Pop culture UFO awareness",
-                  "connections": "TTSA, Rock music fans",
-                  "tags": ["UFO", "Outreach"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Ruth Huber",
+              "image": "https://via.placeholder.com/100",
+              "description": "Ancient text translator exploring esoteric meanings.",
+              "fame": "Low",
+              "influence": "Esoteric text interpretation",
+              "connections": "Scholars of ancient texts",
+              "tags": ["Translation", "Esoterica"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Philosophers and Theorists",
-              "entries": [
-                {
-                  "name": "David Icke",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Philosopher on hidden agendas and human potential.",
-                  "fame": "High",
-                  "influence": "Conspiracy theory landscape",
-                  "connections": "Alternative media",
-                  "tags": ["Conspiracy", "Hidden Agendas"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Video", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Joe Dispenza",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Neuroscientist promoting mind-body connection.",
-                  "fame": "High",
-                  "influence": "Neuroplasticity, Healing",
-                  "connections": "Wellness communities",
-                  "tags": ["Mind-Body", "Neuroscience"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Tom Campbell",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Physicist integrating consciousness and reality theory.",
-                  "fame": "Medium",
-                  "influence": "Virtual reality theory",
-                  "connections": "Consciousness researchers",
-                  "tags": ["Consciousness", "Physics"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Joseph McMoneagle",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Psychic spy in U.S. military remote viewing programs.",
-                  "fame": "Medium",
-                  "influence": "Remote viewing, Psi research",
-                  "connections": "Stargate project team",
-                  "tags": ["Remote Viewing", "Psychic"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Maria Sabina",
+              "image": "https://via.placeholder.com/100",
+              "description": "Mazatec healer, known for her work with sacred mushrooms.",
+              "fame": "High",
+              "influence": "Sacred mushroom rituals",
+              "connections": "Indigenous healers",
+              "tags": ["Shamanism", "Entheogens"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Early UFO Witnesses and Contactees",
-              "entries": [
-                {
-                  "name": "Kenneth Arnold",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Pilot, whose UFO sightings coined “flying saucers.”",
-                  "fame": "High",
-                  "influence": "UFO pop culture",
-                  "connections": "Early UFO researchers",
-                  "tags": ["UFO History"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Report", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Steven Greer",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Advocate for human-initiated extraterrestrial contact.",
-                  "fame": "High",
-                  "influence": "CE-5 protocols",
-                  "connections": "UFO contact groups",
-                  "tags": ["CE-5", "Disclosure"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Film", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Valiant Thor",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Alleged extraterrestrial assisting humanity.",
-                  "fame": "Controversial",
-                  "influence": "Contactee lore",
-                  "connections": "Contactee movement",
-                  "tags": ["ET", "Contactee"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Story", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Sun Yat-sen’s Followers (Miaozhen)",
+              "image": "https://via.placeholder.com/100",
+              "description": "Women mystics from early Taoist traditions.",
+              "fame": "Low",
+              "influence": "Taoist mysticism",
+              "connections": "Taoist practitioners",
+              "tags": ["Taoism", "Mysticism"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Shamans and Anthropologists",
+          "entries": [
+            {
+              "name": "Michael Harner",
+              "image": "https://via.placeholder.com/100",
+              "description": "Anthropologist introducing shamanic practices to the West.",
+              "fame": "Medium",
+              "influence": "Core shamanism",
+              "connections": "Shamanic practitioners",
+              "tags": ["Shamanism", "Anthropology"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Channelers and Mediums",
-              "entries": [
-                {
-                  "name": "Paul Selig",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Channeler of spiritual texts.",
-                  "fame": "Medium",
-                  "influence": "Channeled teachings",
-                  "connections": "Spiritual readers",
-                  "tags": ["Channeling", "Teachings"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Uri Geller",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Psychic known for telekinesis and ESP research.",
-                  "fame": "High",
-                  "influence": "Public psi awareness",
-                  "connections": "Paranormal researchers",
-                  "tags": ["Telekinesis", "ESP"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Interview", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "Terence McKenna",
+              "image": "https://via.placeholder.com/100",
+              "description": "Philosopher exploring psychedelics and consciousness.",
+              "fame": "High",
+              "influence": "Psychedelic culture",
+              "connections": "Psychonaut communities",
+              "tags": ["Psychedelics", "Consciousness"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Talks", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Out-of-Body and Mind Training Researchers",
+          "entries": [
+            {
+              "name": "Robert Monroe",
+              "image": "https://via.placeholder.com/100",
+              "description": "Pioneer in out-of-body experiences.",
+              "fame": "Medium",
+              "influence": "OBE research",
+              "connections": "Monroe Institute",
+              "tags": ["OBE", "Consciousness Travel"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Training", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             },
             {
-              "title": "Shamans and Anthropologists",
-              "entries": [
-                {
-                  "name": "Michael Harner",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Anthropologist introducing shamanic practices to the West.",
-                  "fame": "Medium",
-                  "influence": "Core shamanism",
-                  "connections": "Shamanic practitioners",
-                  "tags": ["Shamanism", "Anthropology"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Book", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                },
-                {
-                  "name": "Terence McKenna",
-                  "image": "https://via.placeholder.com/100",
-                  "description": "Philosopher exploring psychedelics and consciousness.",
-                  "fame": "High",
-                  "influence": "Psychedelic culture",
-                  "connections": "Psychonaut communities",
-                  "tags": ["Psychedelics", "Consciousness"],
-                  "links": [
-                    { "text": "Website", "url": "#" },
-                    { "text": "Talks", "url": "#" },
-                    { "text": "Research", "url": "#" }
-                  ]
-                }
+              "name": "José Silva",
+              "image": "https://via.placeholder.com/100",
+              "description": "Founder of Silva Method for mental training.",
+              "fame": "Medium",
+              "influence": "Mind control techniques",
+              "connections": "Silva Method practitioners",
+              "tags": ["Mental Training", "ESP"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Course", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ancient Civilizations and Hidden History",
+          "entries": [
+            {
+              "name": "Graham Hancock",
+              "image": "https://via.placeholder.com/100",
+              "description": "Author on ancient civilizations and hidden history.",
+              "fame": "High",
+              "influence": "Alternative archaeology",
+              "connections": "Independent researchers",
+              "tags": ["Lost Civilizations", "Archaeology"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Zecharia Sitchin",
+              "image": "https://via.placeholder.com/100",
+              "description": "Theorist linking Sumerian texts to alien intervention.",
+              "fame": "High",
+              "influence": "Ancient astronaut theory",
+              "connections": "Ancient alien theorists",
+              "tags": ["Sumerian", "Ancient Aliens"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Contactees and Experiencers",
+          "entries": [
+            {
+              "name": "Whitley Strieber",
+              "image": "https://via.placeholder.com/100",
+              "description": "UFO experiencer and author of Communion.",
+              "fame": "High",
+              "influence": "Abduction literature",
+              "connections": "Abductee communities",
+              "tags": ["Abduction", "UFO"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Scientist Explorers of Consciousness",
+          "entries": [
+            {
+              "name": "Edgar Mitchell",
+              "image": "https://via.placeholder.com/100",
+              "description": "Astronaut connecting quantum physics and consciousness.",
+              "fame": "High",
+              "influence": "Quantum mind theories",
+              "connections": "IONS institute",
+              "tags": ["Consciousness", "Quantum"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Interview", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Malidoma Somé",
+              "image": "https://via.placeholder.com/100",
+              "description": "Dagara elder sharing African spiritual knowledge.",
+              "fame": "Medium",
+              "influence": "African spirituality",
+              "connections": "Dagara tribe",
+              "tags": ["African Wisdom", "Ritual"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UFO Spiritual Movements",
+          "entries": [
+            {
+              "name": "Rael (Claude Vorilhon)",
+              "image": "https://via.placeholder.com/100",
+              "description": "Leader of Raelian movement connecting UFOs and spirituality.",
+              "fame": "Medium",
+              "influence": "UFO-based religion",
+              "connections": "Raelian followers",
+              "tags": ["UFO Religion", "ET Creation"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Parapsychologists",
+          "entries": [
+            {
+              "name": "Dean Radin",
+              "image": "https://via.placeholder.com/100",
+              "description": "Parapsychologist studying consciousness phenomena.",
+              "fame": "Medium",
+              "influence": "Psi research credibility",
+              "connections": "IONS, Psi community",
+              "tags": ["PSI", "Consciousness Research"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Visionaries of Hidden Realms",
+      "categories": [
+        {
+          "title": "UFO Investigators and Advocates",
+          "entries": [
+            {
+              "name": "Luis Elizondo",
+              "image": "https://via.placeholder.com/100",
+              "description": "UFO investigator, former Pentagon AATIP director.",
+              "fame": "High",
+              "influence": "UFO disclosure efforts",
+              "connections": "TTSA, Pentagon officials",
+              "tags": ["UFO", "AATIP"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Interview", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Robert Bigelow",
+              "image": "https://via.placeholder.com/100",
+              "description": "Aerospace entrepreneur; sponsored UAP research.",
+              "fame": "High",
+              "influence": "UAP research funding",
+              "connections": "NIDS, Aerospace community",
+              "tags": ["UAP", "Aerospace"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Reports", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Brandon Fugal",
+              "image": "https://via.placeholder.com/100",
+              "description": "Owner of Skinwalker Ranch.",
+              "fame": "Medium",
+              "influence": "Paranormal site research",
+              "connections": "Skinwalker Ranch team",
+              "tags": ["Paranormal", "Ranch"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Show", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Chris Mellon",
+              "image": "https://via.placeholder.com/100",
+              "description": "Advocate for transparency in UFO research.",
+              "fame": "High",
+              "influence": "Government transparency",
+              "connections": "UFO disclosure community",
+              "tags": ["Disclosure", "Government"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Article", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Tom DeLonge",
+              "image": "https://via.placeholder.com/100",
+              "description": "Researcher merging UFO studies with public outreach.",
+              "fame": "High",
+              "influence": "Pop culture UFO awareness",
+              "connections": "TTSA, Rock music fans",
+              "tags": ["UFO", "Outreach"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Philosophers and Theorists",
+          "entries": [
+            {
+              "name": "David Icke",
+              "image": "https://via.placeholder.com/100",
+              "description": "Philosopher on hidden agendas and human potential.",
+              "fame": "High",
+              "influence": "Conspiracy theory landscape",
+              "connections": "Alternative media",
+              "tags": ["Conspiracy", "Hidden Agendas"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Video", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Joe Dispenza",
+              "image": "https://via.placeholder.com/100",
+              "description": "Neuroscientist promoting mind-body connection.",
+              "fame": "High",
+              "influence": "Neuroplasticity, Healing",
+              "connections": "Wellness communities",
+              "tags": ["Mind-Body", "Neuroscience"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Tom Campbell",
+              "image": "https://via.placeholder.com/100",
+              "description": "Physicist integrating consciousness and reality theory.",
+              "fame": "Medium",
+              "influence": "Virtual reality theory",
+              "connections": "Consciousness researchers",
+              "tags": ["Consciousness", "Physics"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Joseph McMoneagle",
+              "image": "https://via.placeholder.com/100",
+              "description": "Psychic spy in U.S. military remote viewing programs.",
+              "fame": "Medium",
+              "influence": "Remote viewing, Psi research",
+              "connections": "Stargate project team",
+              "tags": ["Remote Viewing", "Psychic"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Interview", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Early UFO Witnesses and Contactees",
+          "entries": [
+            {
+              "name": "Kenneth Arnold",
+              "image": "https://via.placeholder.com/100",
+              "description": "Pilot, whose UFO sightings coined “flying saucers.”",
+              "fame": "High",
+              "influence": "UFO pop culture",
+              "connections": "Early UFO researchers",
+              "tags": ["UFO History"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Report", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Steven Greer",
+              "image": "https://via.placeholder.com/100",
+              "description": "Advocate for human-initiated extraterrestrial contact.",
+              "fame": "High",
+              "influence": "CE-5 protocols",
+              "connections": "UFO contact groups",
+              "tags": ["CE-5", "Disclosure"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Film", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Valiant Thor",
+              "image": "https://via.placeholder.com/100",
+              "description": "Alleged extraterrestrial assisting humanity.",
+              "fame": "Controversial",
+              "influence": "Contactee lore",
+              "connections": "Contactee movement",
+              "tags": ["ET", "Contactee"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Story", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Channelers and Mediums",
+          "entries": [
+            {
+              "name": "Paul Selig",
+              "image": "https://via.placeholder.com/100",
+              "description": "Channeler of spiritual texts.",
+              "fame": "Medium",
+              "influence": "Channeled teachings",
+              "connections": "Spiritual readers",
+              "tags": ["Channeling", "Teachings"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Uri Geller",
+              "image": "https://via.placeholder.com/100",
+              "description": "Psychic known for telekinesis and ESP research.",
+              "fame": "High",
+              "influence": "Public psi awareness",
+              "connections": "Paranormal researchers",
+              "tags": ["Telekinesis", "ESP"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Interview", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Shamans and Anthropologists",
+          "entries": [
+            {
+              "name": "Michael Harner",
+              "image": "https://via.placeholder.com/100",
+              "description": "Anthropologist introducing shamanic practices to the West.",
+              "fame": "Medium",
+              "influence": "Core shamanism",
+              "connections": "Shamanic practitioners",
+              "tags": ["Shamanism", "Anthropology"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Book", "url": "#" },
+                { "text": "Research", "url": "#" }
+              ]
+            },
+            {
+              "name": "Terence McKenna",
+              "image": "https://via.placeholder.com/100",
+              "description": "Philosopher exploring psychedelics and consciousness.",
+              "fame": "High",
+              "influence": "Psychedelic culture",
+              "connections": "Psychonaut communities",
+              "tags": ["Psychedelics", "Consciousness"],
+              "links": [
+                { "text": "Website", "url": "#" },
+                { "text": "Talks", "url": "#" },
+                { "text": "Research", "url": "#" }
               ]
             }
           ]
         }
       ]
     }
+  ]
 }
