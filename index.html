@@ -4,26 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Primary Meta Tags -->
-  <title>The Pioneers of Consious Expansion</title>
-  <meta name="title" content="The Pioneers of Consious Expansion" />
-  <meta name="description" content="a website dedicated to people who have expanded my conisouesnes" />
+  <title>The Pioneers of Conscious Expansion</title>
+  <meta name="title" content="The Pioneers of Conscious Expansion" />
+  <meta name="description" content="A website dedicated to people who have expanded my consciousness." />
 
-  <!-- Open Graph / Facebook Meta Tags -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://thepioneers.link/" />
-  <meta property="og:title" content="The Pioneers of Consious Expansion" />
-  <meta property="og:description" content="a website dedicated to people who have expanded my conisouesnes" />
+  <meta property="og:title" content="The Pioneers of Conscious Expansion" />
+  <meta property="og:description" content="A website dedicated to people who have expanded my consciousness." />
   <meta property="og:image" content="https://thepioneers.link/icons/android-chrome-512x512.png" />
 
-  <!-- Twitter Meta Tags -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://thepioneers.link/" />
-  <meta property="twitter:title" content="The Pioneers of Consious Expansion" />
-  <meta property="twitter:description" content="a website dedicated to people who have expanded my conisouesnes" />
+  <meta property="twitter:title" content="The Pioneers of Conscious Expansion" />
+  <meta property="twitter:description" content="A website dedicated to people who have expanded my consciousness." />
   <meta property="twitter:image" content="https://thepioneers.link/icons/android-chrome-512x512.png" />
 
-  <!-- Favicon and App Icons -->
   <link
     rel="icon"
     type="image/png"
@@ -46,14 +42,10 @@
     href="https://thepioneers.link/icons/favicon.ico"
     type="image/x-icon"
   />
-
-  <!-- PWA Manifest -->
   <link
     rel="manifest"
     href="https://thepioneers.link/icons/site.webmanifest"
   />
-
-  <!-- Theme Color -->
   <meta name="theme-color" content="#ffffff" />
 
   <style>
@@ -61,14 +53,32 @@
       background-color: #ededed;
       margin: 20px;
       position: relative;
+      font-family: Arial, sans-serif;
+      color: #111;
+    }
+    .skip-to-content {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #fff;
+      color: #000;
+      padding: 8px;
+      z-index: 100;
+      text-decoration: none;
+    }
+    .skip-to-content:focus {
+      top: 0;
     }
     header {
-      font-size: 3em;
-      color: #111;
-      font-weight: bold;
       text-align: center;
       margin-top: 30px;
       padding-bottom: 15px;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #111;
+      font-weight: bold;
+      margin: 0;
       text-shadow: -1px 1px 0 white, -2px 2px 0 #111;
     }
     hr {
@@ -79,7 +89,7 @@
       box-shadow: -1px 1px 0 white, -2px 2px 0 #111;
       margin-bottom: 30px;
     }
-    nav {
+    nav[aria-label="Main navigation"] {
       text-align: center;
       margin-bottom: 40px;
     }
@@ -122,7 +132,7 @@
       margin-left: auto;
       margin-right: auto;
     }
-    h2 {
+    main h2 {
       margin-top: 0.5em;
       text-align: center;
       font-size: 2em;
@@ -142,8 +152,6 @@
       transform: scale(0.9);
       transform-origin: center;
     }
-
-    /* Single container for all MIND, BODY, SPIRIT, LIFE content */
     .content-sections {
       max-width: 650px;
       margin: 0 auto 30px auto;
@@ -173,10 +181,14 @@
   </style>
 </head>
 <body>
-  <header>THE PIONEERS OF CONSIOUS EXPANSION</header>
+  <a href="#mainContent" class="skip-to-content">Skip to main content</a>
+
+  <header>
+    <h1>THE PIONEERS OF CONSCIOUS EXPANSION</h1>
+  </header>
   <hr class="page-separator" />
 
-  <nav>
+  <nav aria-label="Main navigation">
     <ul>
       <li><a href="#about">ABOUT</a></li>
       <li><a href="#mind">MIND</a></li>
@@ -186,41 +198,45 @@
     </ul>
   </nav>
 
-  <!-- ABOUT Section -->
-  <section id="about">
-    <h2>What’s this site all about?</h2>
-    <hr class="category-line" />
-    <p>
-      Welcome to ThePioneers.link! <br /><br />
-      This site is my heartfelt tribute to the PhDs, pioneers, and truly out-of-this-world thinkers who’ve each contributed something vital to my personal growth. Think of them as key links in a
-      chain—without even one, I wouldn’t be the same person I am today. <br /><br />
-      I’m not here to idolize anyone (after all, time reveals everyone’s flaws), but rather to help you find the guidance you might be missing—just like I was. Through long chats, deep dives into
-      AI recommendations, and plenty of reflective reading, I discovered these brilliant minds. Their insights not only shifted my perspective, but also rippled out to my loved ones—from my
-      parents and siblings to my wife—making us all a little happier and healthier. <br /><br />
-      If you’re looking to quickly “level up” your consciousness, these voices have been game-changers for me. My hope is that by exploring their work, you’ll uncover new ways to grow, evolve, and
-      live more fully. You’re on a path toward greater balance and well-being—and ThePioneers.link is here to light the way. <br /><br />
-      Enjoy the journey!
-    </p>
-  </section>
+  <main id="mainContent">
+    <section id="about">
+      <h2>What’s this site all about?</h2>
+      <hr class="category-line" />
+      <p>
+        Welcome to ThePioneers.link! <br /><br />
+        This site is my heartfelt tribute to the PhDs, pioneers, and truly out-of-this-world thinkers who’ve each
+        contributed something vital to my personal growth. Think of them as key links in a chain—without even one, I
+        wouldn’t be the same person I am today. <br /><br />
+        I’m not here to idolize anyone (after all, time reveals everyone’s flaws), but rather to help you find the
+        guidance you might be missing—just like I was. Through long chats, deep dives into AI recommendations, and
+        plenty of reflective reading, I discovered these brilliant minds. Their insights not only shifted my
+        perspective, but also rippled out to my loved ones—from my parents and siblings to my wife—making us all a
+        little happier and healthier. <br /><br />
+        If you’re looking to quickly “level up” your consciousness, these voices have been game-changers for me. My
+        hope is that by exploring their work, you’ll uncover new ways to grow, evolve, and live more fully. You’re on
+        a path toward greater balance and well-being—and ThePioneers.link is here to light the way. <br /><br />
+        Enjoy the journey!
+      </p>
+    </section>
 
-  <!-- Single Container for MIND, BODY, SPIRIT, LIFE -->
-  <section class="content-sections">
-    <h2 id="mind">MIND</h2>
-    <hr class="category-line" />
-    <div id="mind-content"></div>
+    <section class="content-sections">
+      <h2 id="mind">MIND</h2>
+      <hr class="category-line" />
+      <div id="mind-content"></div>
 
-    <h2 id="body">BODY</h2>
-    <hr class="category-line" />
-    <div id="body-content"></div>
+      <h2 id="body">BODY</h2>
+      <hr class="category-line" />
+      <div id="body-content"></div>
 
-    <h2 id="spirit">SPIRIT</h2>
-    <hr class="category-line" />
-    <div id="spirit-content"></div>
+      <h2 id="spirit">SPIRIT</h2>
+      <hr class="category-line" />
+      <div id="spirit-content"></div>
 
-    <h2 id="life">LIFE</h2>
-    <hr class="category-line" />
-    <div id="life-content"></div>
-  </section>
+      <h2 id="life">LIFE</h2>
+      <hr class="category-line" />
+      <div id="life-content"></div>
+    </section>
+  </main>
 
   <footer>
     <script type="module">
