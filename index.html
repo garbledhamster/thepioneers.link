@@ -1,161 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
-    <link rel="shortcut icon" href="icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <style>
-        html,body{margin:0;padding:0;height:100%;background:#000;overflow-x:hidden;font-family:Arial,sans-serif;color:#fff;scroll-behavior:smooth}
-        #particles-js{position:absolute;width:100%;height:100%;z-index:-1;top:0;left:0}
-        h1,h2,h3{color:#fff}
-        .category-container{margin-bottom:50px}
-        .swiper-container{width:100%;padding:20px;background:rgba(0,0,0,0.7);border-radius:10px}
-        .swiper-slide{display:flex;align-items:center;background:#111;padding:10px;border-radius:10px}
-        .swiper-slide img{border-radius:50%;width:80px;height:80px;object-fit:cover;margin-right:10px}
-        .card-details h3{margin:0;font-size:1.3rem}
-        .card-details p{margin:0 0 5px}
-        .tags,.buttons,.influence,.connections,.ranking{font-size:0.9rem;margin-bottom:5px}
-        .buttons a{margin-right:5px;color:#fff;text-decoration:none;border:1px solid #fff;padding:2px 6px;border-radius:4px;font-size:0.8rem;transition:background 0.3s,color 0.3s}
-        .buttons a:hover{background:#fff;color:#000}
-        .micromodal-overlay{background:rgba(0,0,0,0.7)}
-        .micromodal-slide{background:#111;color:#fff;padding:20px;border-radius:10px}
-        .navbar{background:rgba(0,0,0,0.7)}
-        .navbar-nav .nav-link{color:#fff!important}
-        .navbar-nav .nav-link:hover{color:#aaa!important}
-        .form-control{background:#222;color:#fff;border:1px solid #444}
-        .form-control:focus{background:#333;color:#fff;border-color:#666}
-        .card-grid{display:flex;align-items:center;margin-bottom:20px}
-        .card-grid img{border-radius:50%;width:80px;height:80px;object-fit:cover;margin-right:10px}
-    </style>
-</head>
-<body>
-    <div id="particles-js"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Explorers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span data-feather="menu"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#section-cards">Explorers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#modal-open" data-micromodal-trigger="modal-1">About This Project</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact-form-section">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container py-5">
-        <h1 class="text-center mb-5" data-aos="zoom-in">Dedication to Explorers of UFO Phenomena, Consciousness, and Hidden History</h1>
-        <h2 id="section-cards" class="mb-4" data-aos="fade-up">Notable Explorers</h2>
-        <div class="swiper-container" data-aos="fade-up">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="https://picsum.photos/80/80?random=1" alt="Explorer 1">
-                    <div class="card-details">
-                        <h3>John Smith</h3>
-                        <p>UFO Researcher</p>
-                        <div class="buttons">
-                            <a href="#!" data-tippy-content="View Profile">Profile</a>
-                            <a href="#!" data-tippy-content="Visit Website">Website</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://picsum.photos/80/80?random=2" alt="Explorer 2">
-                    <div class="card-details">
-                        <h3>Jane Doe</h3>
-                        <p>Consciousness Explorer</p>
-                        <div class="buttons">
-                            <a href="#!" data-tippy-content="View Profile">Profile</a>
-                            <a href="#!" data-tippy-content="Visit Website">Website</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://picsum.photos/80/80?random=3" alt="Explorer 3">
-                    <div class="card-details">
-                        <h3>Alan Watts</h3>
-                        <p>Hidden History Enthusiast</p>
-                        <div class="buttons">
-                            <a href="#!" data-tippy-content="View Profile">Profile</a>
-                            <a href="#!" data-tippy-content="Visit Website">Website</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div id="content-area"></div>
-        <h2 class="mt-5" data-aos="fade-up">Gallery</h2>
-        <p data-aos="fade-up">Click on images to enlarge:</p>
-        <div class="row mb-5" data-aos="fade-up">
-            <div class="col-md-4">
-                <a href="https://picsum.photos/800/600?random=4" data-lightbox="gallery" data-title="Mysterious Artifact">
-                    <img src="https://picsum.photos/400/300?random=4" class="img-fluid mb-3" alt="artifact">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://picsum.photos/800/600?random=5" data-lightbox="gallery" data-title="UFO Sighting">
-                    <img src="https://picsum.photos/400/300?random=5" class="img-fluid mb-3" alt="ufo">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://picsum.photos/800/600?random=6" data-lightbox="gallery" data-title="Ancient Symbol">
-                    <img src="https://picsum.photos/400/300?random=6" class="img-fluid mb-3" alt="symbol">
-                </a>
-            </div>
-        </div>
-        <h2 id="contact-form-section" data-aos="fade-up">Contact Us</h2>
-        <form id="contact-form" class="mb-5" data-aos="fade-up">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
-            </div>
-            <button type="submit" class="btn btn-light" data-tippy-content="Submit the form">Submit</button>
-        </form>
-    </div>
-    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
-        <div class="micromodal-overlay" tabindex="-1" data-micromodal-close>
-            <div class="micromodal-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-                <header class="micromodal-header">
-                    <h2 class="micromodal-title" id="modal-1-title">About This Project</h2>
-                    <button class="micromodal-close" aria-label="Close modal" data-micromodal-close></button>
-                </header>
-                <main class="micromodal-content" id="modal-1-content">
-                    <p>This project is dedicated to the pioneers exploring UFO phenomena, consciousness studies, and hidden histories that shape our world.</p>
-                </main>
-                <footer class="micromodal-footer">
-                    <button class="btn btn-light" data-micromodal-close>Close</button>
-                </footer>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/micromodal@0.4.10/dist/micromodal.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/just-validate@2.8.1/dist/js/just-validate.production.min.js"></script>
-    <script src="data/scripts.js"></script>
-    <script src="data/gui.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<!-- Primary Meta Tags -->
+		<title>The Pioneers of Consious Expansion</title>
+		<meta
+			name="title"
+			content="The Pioneers of Consious Expansion"
+		/>
+		<meta
+			name="description"
+			content="a website dedicated to people who have expanded my conisouesnes"
+		/>
+
+		<!-- Open Graph / Facebook Meta Tags -->
+		<meta
+			property="og:type"
+			content="website"
+		/>
+		<meta
+			property="og:url"
+			content="https://thepioneers.link/"
+		/>
+		<meta
+			property="og:title"
+			content="The Pioneers of Consious Expansion"
+		/>
+		<meta
+			property="og:description"
+			content="a website dedicated to people who have expanded my conisouesnes"
+		/>
+		<meta
+			property="og:image"
+			content="https://thepioneers.link/icons/android-chrome-512x512.png"
+		/>
+
+		<!-- Twitter Meta Tags -->
+		<meta
+			property="twitter:card"
+			content="summary_large_image"
+		/>
+		<meta
+			property="twitter:url"
+			content="https://thepioneers.link/"
+		/>
+		<meta
+			property="twitter:title"
+			content="The Pioneers of Consious Expansion"
+		/>
+		<meta
+			property="twitter:description"
+			content="a website dedicated to people who have expanded my conisouesnes"
+		/>
+		<meta
+			property="twitter:image"
+			content="https://thepioneers.link/icons/android-chrome-512x512.png"
+		/>
+
+		<!-- Favicon and App Icons -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="https://thepioneers.link/icons/favicon-16x16.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://thepioneers.link/icons/favicon-32x32.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="https://thepioneers.link/icons/apple-touch-icon.png"
+		/>
+		<link
+			rel="shortcut icon"
+			href="https://thepioneers.link/icons/favicon.ico"
+			type="image/x-icon"
+		/>
+
+		<!-- PWA Manifest -->
+		<link
+			rel="manifest"
+			href="https://thepioneers.link/icons/site.webmanifest"
+		/>
+
+		<!-- Theme Color -->
+		<meta
+			name="theme-color"
+			content="#ffffff"
+		/>
+
+		<style>
+			body {
+				background-color: #ededed;
+				margin: 50px;
+				position: relative;
+			}
+			header {
+				font-size: 3em;
+				color: #111;
+				font-weight: bold;
+				text-align: center;
+				margin-top: 30px;
+				padding-bottom: 15px;
+				text-shadow: -1px 1px 0 white, -2px 2px 0 #111;
+			}
+			hr {
+				border: none;
+			}
+			hr.page-separator {
+				border-bottom: 4px solid #111;
+				box-shadow: -1px 1px 0 white, -2px 2px 0 #111;
+				margin-bottom: 30px;
+			}
+			nav {
+				text-align: center;
+				margin-bottom: 40px;
+			}
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+				display: inline-block;
+				margin: 0;
+			}
+			nav li {
+				display: inline;
+				margin: 0 15px;
+			}
+			nav a {
+				text-decoration: none;
+				font-weight: bold;
+				color: #111;
+				font-size: 1.1em;
+			}
+			section {
+				-webkit-column-count: 2;
+				-webkit-column-gap: 60px;
+				-webkit-column-rule: 1px solid #a1a1a1;
+				-moz-column-count: 2;
+				-moz-column-gap: 60px;
+				-moz-column-rule: 1px solid #a1a1a1;
+				column-count: 2;
+				column-gap: 60px;
+				column-rule: 1px solid #a1a1a1;
+				text-align: justify;
+				max-width: 650px;
+				margin: 0 auto;
+			}
+			@media (max-width: 768px) {
+				section {
+					-webkit-column-count: 1;
+					-moz-column-count: 1;
+					column-count: 1;
+				}
+			}
+			h2 {
+				margin-top: 0.5em;
+				margin-bottom: 0.3em;
+				text-align: center;
+				font-size: 2em;
+				font-weight: bold;
+				font-family: Georgia, serif;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				text-shadow: -1px 1px 0 white, -2px 2px 0 #111;
+			}
+			hr.category-line {
+				border-bottom: 2px solid #111;
+				box-shadow: -1px 1px 0 white, -2px 2px 0 #111;
+				margin-bottom: 30px;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			h3 {
+				margin-top: 0.5em;
+				text-align: left;
+				font-size: 1.2em;
+				margin-bottom: 0.2em;
+			}
+			img {
+				width: 100%;
+				margin: 1em 0;
+				filter: grayscale(100%) brightness(1.1);
+			}
+			footer {
+				margin-top: 50px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>THE PIONEERS OF CONSIOUS EXPANSION</header>
+		<hr class="page-separator" />
+
+		<nav>
+			<ul>
+				<li><a href="#mind">MIND</a></li>
+				<li><a href="#body">BODY</a></li>
+				<li><a href="#spirit">SPIRIT</a></li>
+				<li><a href="#life">LIFE</a></li>
+			</ul>
+		</nav>
+		<section>
+			<h2>What's this site all about?</h2>
+			<hr class="category-line" />
+			<div id="about-content">
+				<p>
+					Welcome to ThePioneers.link! <br /><br />
+					This site is my heartfelt tribute to the PhDs, pioneers, and truly out-of-this-world thinkers who’ve each contributed something vital to my personal growth. Think of them as key links in a
+					chain—without even one, I wouldn’t be the same person I am today. <br /><br />
+					I’m not here to idolize anyone (after all, time reveals everyone’s flaws), but rather to help you find the guidance you might be missing—just like I was. Through long chats, deep dives into
+					AI recommendations, and plenty of reflective reading, I discovered these brilliant minds. Their insights not only shifted my perspective, but also rippled out to my loved ones—from my
+					parents and siblings to my wife—making us all a little happier and healthier. <br /><br />
+					If you’re looking to quickly “level up” your consciousness, these voices have been game-changers for me. My hope is that by exploring their work, you’ll uncover new ways to grow, evolve, and
+					live more fully. You’re on a path toward greater balance and well-being—and ThePioneers.link is here to light the way. <br /><br />
+					Enjoy the journey!
+				</p>
+			</div>
+
+			<h2 id="mind">MIND</h2>
+			<hr class="category-line" />
+			<div id="mind-content"></div>
+
+			<h2 id="body">BODY</h2>
+			<hr class="category-line" />
+			<div id="body-content"></div>
+
+			<h2 id="spirit">SPIRIT</h2>
+			<hr class="category-line" />
+			<div id="spirit-content"></div>
+
+			<h2 id="life">LIFE</h2>
+			<hr class="category-line" />
+			<div id="life-content"></div>
+		</section>
+
+		<footer>
+			<script type="module">
+				import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js';
+				import { getFirestore, collection, getDocs } from 'https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js';
+
+				const firebaseConfig = {
+					apiKey: 'AIzaSyC2db3t4xEitzczdvQfNd-gc2pFhGID0Ks',
+					authDomain: 'the-pioneers-64502.firebaseapp.com',
+					projectId: 'the-pioneers-64502',
+					storageBucket: 'the-pioneers-64502.firebasestorage.app',
+					messagingSenderId: '1080085800382',
+					appId: '1:1080085800382:web:b9751c90d1a6297fd005ef',
+					measurementId: 'G-N4DMZH3GPG',
+				};
+
+				const app = initializeApp(firebaseConfig);
+				const db = getFirestore(app);
+
+				async function loadContent(category, containerId) {
+					const container = document.getElementById(containerId);
+					const snapshot = await getDocs(collection(db, category));
+					container.innerHTML = '';
+					snapshot.forEach((doc) => {
+						const data = doc.data();
+						const block = document.createElement('div');
+						block.innerHTML = `
+          <h3>${data.title}</h3>
+          <p>${data.paragraph1}</p>
+          <img src="${data.img}" alt="${data.title}">
+          <p>${data.paragraph2}</p>
+        `;
+						container.appendChild(block);
+					});
+				}
+
+				loadContent('MIND', 'mind-content');
+				loadContent('BODY', 'body-content');
+				loadContent('SPIRIT', 'spirit-content');
+				loadContent('LIFE', 'life-content');
+			</script>
+		</footer>
+	</body>
 </html>
